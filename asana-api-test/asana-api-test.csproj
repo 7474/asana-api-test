@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -8,7 +8,7 @@
 
   <ItemGroup>
     <OpenApiReference Include="OpenAPIs\asana_oas.yaml" CodeGenerator="NSwagCSharp">
-      <SourceUri>https://raw.githubusercontent.com/Asana/developer-docs/master/defs/asana_oas.yaml</SourceUri>
+      <SourceUri>https://raw.githubusercontent.com/7474/developer-docs/fix-duplicate-enum/defs/asana_oas.yaml</SourceUri>
     </OpenApiReference>
   </ItemGroup>
 
